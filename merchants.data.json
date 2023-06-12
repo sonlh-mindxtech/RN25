@@ -1,0 +1,20 @@
+[
+// 15 merchants.
+  {
+    mId: "xyz",
+    name: "Pho 24",
+    address : "343 PNL, q1, hcm",
+    description: "Quan nay pho ngon lam"
+    thumbnailImg:"https/abc.jpg",
+    currentRate: 3,
+    estimatedTime: "15m",
+    estimatedDist: "1.6km"
+  },
+  {
+    mId: "abx",
+    name: "Bun bo song huong",
+    address : "some where in district 1",
+    description: "Quan nay pho ngon lam"
+  },
+  // ...
+]

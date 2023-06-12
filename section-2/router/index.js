@@ -4,7 +4,9 @@ import { randomCatHandler } from "../controller/randomCat.js"
 
 const baseRouter = Router()
 
-baseRouter.get('/random-cat/c',randomCatHandler)
+baseRouter.get('/merchants',randomCatHandler)
+baseRouter.get('/merchants/:id/menu',randomCatHandler)
+
 // BTVN
 // Viet api endpoint lấy random 1 tác giả từ api: https://lucifer-quotes.vercel.app/api/quotes
 // Các bước như randomCat
