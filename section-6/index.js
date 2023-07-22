@@ -16,6 +16,12 @@ app.use(express.json()) // body parser
 app.use(morgan('tiny'))
 app.use(router)
 
+app.use("/", (req, res) => {
+	res.status(200).json({
+		"status": "alive"
+	})
+})
+
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`)
 })
