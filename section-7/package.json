@@ -1,0 +1,26 @@
+{
+  "name": "section-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entrypoint.js",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/main.js",
+    "ws:dev:up": "nodemon entrypoint.js",
+    "start": "node entrypoint.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.6.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
